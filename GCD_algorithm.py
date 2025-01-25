@@ -73,7 +73,7 @@ def multiple_input():
             #check the validity of the inputs, if they are wrong asks user to input again until correct
             # the euclidean algorithm does not work if both numbers are zero or if one or both numbers is a float or if one or both numbers is negative
             while (num1==0 and num2==0) or (num1<0 or num2<0) or (Is_float(num1)) or (Is_float(num2)):
-                print("Your input is invalid please try again, enter two positive integers to continue")
+                print(f"Your input {num1} and {num2} is invalid please try again, enter two positive integers to continue")
                 num1 = float(input("Enter the first number: "))
                 num2 = float(input("Enter the second number: "))
             
